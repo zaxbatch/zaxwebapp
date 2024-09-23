@@ -28,7 +28,7 @@ function register(event) {
 	    const user = userCredential.user;
 	    // ...
 	    alert('Thanks for joining!')
-	    window.location.replace("/");
+	    window.location.replace("members.html");
 	  })
 	  .catch((error) => {
 	    const errorCode = error.code;
